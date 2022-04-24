@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+}
+
+#face-select .col button.btn {
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.container{
+    position: relative;
+}
+
+.row.nowrap {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#select {
+    user-select: none;
+    margin-top: 20px;
+    height: 65%;
+    padding: 10px;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#dialog {
+    position: absolute;
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}
